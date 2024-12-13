@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import axios from 'axios';
-import { label } from "framer-motion/client";
 
 export function Register() {
     const [email, setEmail] = useState("");
