@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import { Login } from "./app/auth/login";
 import { Register } from "./app/auth/register";
 import Dashboard from "./app/Dashboard";
+// import MiddleWare from "./app/MiddleWare";
 
 function App() {
 
@@ -13,6 +14,10 @@ function App() {
       },
       {
         path: "/",
+        // element: <MiddleWare />
+      },
+      {
+        path: "/Dashboard",
         element: <Dashboard />
       },
       {
